@@ -19,7 +19,9 @@ export default function AuthScreen({ navigation }) {
 
     const user = {
       id: '1',
-      name: isSignUp ? name : 'John Doe',
+      name: isSignUp
+        ? (email?.split('@')[0])   // अगर name empty है तो email से निकालो
+        : 'Test User',
       email,
     };
 
@@ -84,7 +86,7 @@ export default function AuthScreen({ navigation }) {
         />
 
         <TouchableOpacity
-          onPress={handleAuth} 
+          onPress={handleAuth}
           activeOpacity={0.85}>
           <LinearGradient
             colors={['#ff5f6d', '#ef4444']}
@@ -124,7 +126,7 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     marginBottom: 8,
-    resizeMode:"contain"
+    resizeMode: "contain"
   },
   appName: {
     fontSize: 26,

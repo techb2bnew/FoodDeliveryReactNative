@@ -216,7 +216,7 @@ const TermsConditions = ({ navigation }) => {
           </Text>
         </TermsSection>
 
-        <TermsSection title="Contact Information" icon="phone">
+        {/* <TermsSection title="Contact Information" icon="phone">
           <Text style={styles.bodyText}>
             For questions about these Terms of Service, please contact us:
           </Text>
@@ -229,7 +229,7 @@ const TermsConditions = ({ navigation }) => {
           <Text style={styles.bodyText}>
             By using FoodieHub, you acknowledge that you have read and understood these Terms of Service.
           </Text>
-        </TermsSection>
+        </TermsSection> */}
 
         <View style={styles.bottomSpacing} />
       </ScrollView>

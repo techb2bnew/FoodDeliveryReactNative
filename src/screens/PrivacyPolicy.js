@@ -160,7 +160,7 @@ const PrivacyPolicy = ({ navigation }) => {
           </Text>
         </PolicySection>
 
-        <PolicySection title="Contact Us" icon="phone">
+        {/* <PolicySection title="Contact Us" icon="phone">
           <Text style={styles.bodyText}>
             If you have questions about this privacy policy or our data practices, please contact us:
           </Text>
@@ -169,7 +169,7 @@ const PrivacyPolicy = ({ navigation }) => {
             <Text style={styles.contactItem}>• Phone: 1-800-FOODIE-1</Text>
             <Text style={styles.contactItem}>• Address: 123 Food Street, Delivery City, DC 12345</Text>
           </View>
-        </PolicySection>
+        </PolicySection> */}
 
         <View style={styles.bottomSpacing} />
       </ScrollView>
@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F9FAFB',
   },
   header: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#ef4444',
     paddingHorizontal: 16,
     paddingVertical: 12,
     flexDirection: 'row',
@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#1F2937',
+    color: '#fff',
   },
   content: {
     flex: 1,

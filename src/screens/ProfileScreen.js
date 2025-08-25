@@ -169,6 +169,7 @@ const styles = StyleSheet.create({
     color: '#111827',
     marginTop: 16,
     marginBottom: 6,
+    textAlign:"center"
   },
   signInSubtitle: {
     fontSize: 15,
